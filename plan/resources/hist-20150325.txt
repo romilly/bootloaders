@@ -1,0 +1,174 @@
+    1  sudo apt-get update
+    2  sudo apt-get upgrade
+    3  sudo apt-get install arduino
+    4  startx
+    5  ls
+    6  cd git
+    7  ls
+    8  cd tworse
+    9  ls
+   10  cd ..
+   11  startx
+   12  sudo apt-get install scrot
+   13  scrot -cud 5 
+   14  ls
+   15  scp 2015-03-13-141148_498x567_scrot.png romilly:192.168.1.105:git/tworse/manuscript/images/
+   16  scp 2015-03-13-141148_498x567_scrot.png romilly@192.168.1.105:git/tworse/manuscript/images/
+   17  scrot -cud 5 
+   18  scp 2015-03-13-141954_498x567_scrot.png .png romilly:192.168.1.105:git/tworse/manuscript/images/
+   19  scp 2015-03-13-141954_498x567_scrot.png .png romilly@192.168.1.105:git/tworse/manuscript/images/
+   20  ls
+   21  cd Downloads/
+   22  sudo dpkg -i google-chrome-stable_current_i386.deb
+   23  cdd  ..
+   24  cd ..
+   25  mkdir git
+   26  cd git
+   27  ls
+   28  cd tworse
+   29  git pull
+   30  cd ..
+   31  cd git
+   32  cd tworse
+   33  cd manuscript/
+   34  cd images
+   35  scrot -cud 10
+   36  git add .
+   37  git status
+   38  git commit -m 'added screenshpt of upload'
+   39  git push
+   40  scrot -cud 10
+   41  scrot -cud 5
+   42  sudo apt-get install recordMyDesktop
+   43  sudo apt-get install gtk-recordMyDesktop
+   44  scp /home/pi/Downloads/sos.ogg-1.ogv  romilly@192.168.1.105:git/tworse/
+   45  sudo apt-get install vtk-recordmydesktop
+   46  sudo apt-get install vtk-recordMyDesktop
+   47  sudo apt-get install kazam
+   48  sudo apt-get install glc
+   49  sudo apt-get install SimplScreenRecorder
+   50  sudo apt-get install SimpleScreenRecorder
+   51  sudo apt-get install tightvncserver
+   52  tightvncserver
+   53  vncserver :0 -geometry 1920x1080 -depth 24 -dpi 96
+   54  ifconfig
+   55  sudo reboot
+   56  cd manuscript/images/
+   57  scrot -cud 10
+   58  scrot -cud 20
+   59  git add .
+   60  git status
+   61  git commit -m'redid screenshot'
+   62  sudo apt-get install python-serial
+   63  clear
+   64  python
+   65  cd ~
+   66  clear
+   67  python
+   68  avrdude -c ?type
+   69  avrdude -v
+   70  sudo apt-get remove avrdude
+   71  cd /etc/modprobe.d/
+   72  ls
+   73  ls /dev/s*
+   74  sudo raspi-config
+   75  scrot -cud 5
+   76  git add .
+   77  git commit -m 'pyhon interactve'
+   78  git push
+   79  vncserver :0 -geometry 1920x1080 -depth 24 -dpi 96
+   80  ifconfig
+   81  cd git/tworse/
+   82  git status
+   83  git add .
+   84  git commit -m 'more screenshots'
+   85  git push
+   86  startx
+   87  git clone https://github.com/kcuzner/avrdude.git
+   88  sudo apt-get install bison autoconf make gcc flex
+   89  find /usr -name 'spidev.h'
+   90  cd avrdude
+   91  ls
+   92  cd avrdude/
+   93  ./bootstrap
+   94  ./configure
+   95  make
+   96  avrdude -c ?type
+   97  ls
+   98  sudo amke install
+   99  sudo make install
+  100  avrdude -c ?type
+  101  avrdude -c 
+  102  avrdude -c ?
+  103  which arvdude
+  104  which avrdude
+  105  find /usr -name avrdude.conf
+  106  cat /usr/local/etc/avrdude.conf 
+  107  sudo apt-get remove arduino
+  108  sudo apt-get remove avrdude
+  109  which avrdude
+  110  avrdude -c ?
+  111  ls /usr/local/bin/avrdude -la
+  112  /usr/local/bin/avrdude -c ?
+  113  sudo apt-get install arduino
+  114  /usr/local/bin/avrdude -c ?
+  115  avrdude -c ?
+  116  ifconfig
+  117  sudo apt-get install neo4j
+  118  sudo apt-get install firefox
+  119  sudo apt-get install chrome
+  120  sudo apt-get install chromium
+  121  sudo shutdown now -h
+  122  ls /usr/local/a*
+  123  which avrdude
+  124  ls /usr/bin/a*
+  125  ls /usr/bin/av* -la
+  126  echo $PATH
+  127  ls /dev/spi*
+  128  cd git
+  129  startx
+  130  cd Downloads/
+  131  ls
+  132  cd ..
+  133  tar -xzvf Downloads/neo4j-community-2.1.7-unix.tar.gz 
+  134  cd neo4j-community-2.1.7/
+  135  bin/neo4j start
+  136  sudo apt-get install lsof
+  137  bin/neo4j start
+  138  bin/neo4j stop
+  139  bin/neo4j start
+  140  ifconfig
+  141  vncserver :0 -geometry 1920x1080 -depth 24 -dpi 96
+  142  /usr/local/bin/avrdude 
+  143  /usr/local/bin/avrdude -c
+  144  /usr/local/bin/avrdude -c?
+  145  sudo /usr/local/bin/avrdude -c linuxspi -p m328p -v
+  146  sudo /usr/local/bin/avrdude -c linuxspi -p m328p -v -P /dev/spidev0.0
+  147  shutdown now -h
+  148  sudo shutdown now -h
+  149  startx
+  150  shutdown now
+  151  sudo shutdown now -h
+  152  sudo pip install explorerhat
+  153  sudo apt-get install python-pip
+  154  sudo apt-get easy-install
+  155  sudo apt-get install easy-install
+  156  sudo apt-get install python-setuptools
+  157  easy-install pip
+  158  easy_install pip
+  159  sudo easy_install pip
+  160  sudo pip install explorerhat
+  161  sudo apt-get install python-smbus
+  162  ls /dev/i2*
+  163  ./raspi-config
+  164  ./raspiconfig
+  165  raspi-config 
+  166  sudo raspi-config 
+  167  ls /dev/i2*
+  168  ls /dev/
+  169  sudo python
+  170  curl get.pimoroni.com/i2c | bash
+  171  ls /dev/
+  172  sudo reboot
+  173  sudo python
+  174  history > hist.txt
